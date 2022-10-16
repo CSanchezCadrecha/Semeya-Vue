@@ -1,6 +1,7 @@
 <script></script>
 
 <template>
+    <h5>Editar Ficha</h5>
     <form class="g-1 d-flex flex-column form_container rounded">
         <div class="mt-4 ms-5 me-5">
             <label for="image" class="form-label">Imagen</label>

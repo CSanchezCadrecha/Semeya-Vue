@@ -30,6 +30,8 @@
     color:black;
   }
 
+  a{
+    font-family: 'Klee One', cursive;
+  }
   
-
 </style>

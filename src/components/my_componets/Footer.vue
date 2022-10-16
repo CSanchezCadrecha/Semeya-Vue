@@ -17,5 +17,6 @@
 <style>
   footer{
     background-color: #f8f9fa;
+    font-family: 'Klee One', cursive;
   }
 </style>

@@ -1,5 +1,4 @@
-<script>
-</script>
+<script></script>
 
 <template>
     <h3 class="mt-5 title_detail">Ficha Detalle</h3>
@@ -9,21 +8,19 @@
                 <img src="src/assets/foto.jpg" class="card-img-top img-fluid pb-4 pe-3 ps-3 pt-3" alt="fotografía">
             </div>
             <div class="card mt-5 mb-5 ms-5 me-5 text_detail">
-                <!-- <h5 class="mb-5">Blanco y Negro</h5> -->
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Título: Blanco y Negro</li>
                     <li class="list-group-item">Localización: Avilés</li>
                     <li class="list-group-item">Escenario: Ciudad</li>
-                    <li class="list-group-item">Temporada: Invierno</li>
                     <li class="list-group-item">Fecha: 21/12/2021</li>
-                    <li class="list-group-item">Hora: Amanecer</li>
                     <li class="list-group-item">Equipo: Xiaomi Redmi Note Pro</li>
+                    <li class="list-group-item">Iluminación: Natural</li>
                     <li class="list-group-item">Edición: Si</li>
                     <li class="list-group-item"></li>
                 </ul>
                 <div class="buttons mt-3 d-flex justify-content-end">
-                    <a href="#" class="btn ms-5 me-3 pb-3"><i class="bi bi-pencil-fill"></i></a>
-                    <a href="#" class="btn ms-5 pb-3"><i class="bi bi-trash3-fill"></i></a>
+                    <a href="/edit" class="btn ms-5 me-3 pb-3"><i class="bi bi-pencil-fill"></i></a>
+                    <a href="/gallery" class="btn ms-5 pb-3"><i class="bi bi-trash3-fill"></i></a>
                 </div>
             </div> 
         </div>
@@ -73,7 +70,7 @@
 }
 
 .btn:hover{
-    background-color:  #88ad99;
+    background-color: black;;
 }
 
 </style>
