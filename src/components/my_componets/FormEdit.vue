@@ -36,12 +36,17 @@
             <input type="text" class="form-control shadow bg-body rounded" id="edition">
         </div>
         <div class="mt-4 mb-5 me-5 d-flex justify-content-end">
-        <button type="submit" class="btn">Añadir</button>
+            <a href="/details" class="btn me-5 pb-3">Cancelar</a>
+            <button type="submit" class="btn">Añadir</button>
         </div>
     </form>
 </template>
 
 <style>
+    h5{
+        font-family: 'Klee One', cursive;
+    }
+    
     .form_container{
         background-color: #88ad99;
         width: 50%;
@@ -53,13 +58,13 @@
     }
 
     label{
-        font-family: 'Klee One', cursive;;
+        font-family: 'Klee One', cursive;
     }
 
 
     .btn{
         background-color: #71917f;
-        min-width: 10%;
+        min-width: 11.5%;
     }
 
     .btn:hover{

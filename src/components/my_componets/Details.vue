@@ -9,13 +9,13 @@
             </div>
             <div class="card mt-5 mb-5 ms-5 me-5 text_detail">
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Título: Blanco y Negro</li>
-                    <li class="list-group-item">Localización: Avilés</li>
-                    <li class="list-group-item">Escenario: Ciudad</li>
-                    <li class="list-group-item">Fecha: 21/12/2021</li>
-                    <li class="list-group-item">Equipo: Xiaomi Redmi Note Pro</li>
-                    <li class="list-group-item">Iluminación: Natural</li>
-                    <li class="list-group-item">Edición: Si</li>
+                    <li class="list-group-item"><span>Título:</span> Blanco y Negro</li>
+                    <li class="list-group-item"><span>Localización:</span> Avilés</li>
+                    <li class="list-group-item"><span>Escenario:</span> Ciudad</li>
+                    <li class="list-group-item"><span>Fecha:</span> 21/12/2021</li>
+                    <li class="list-group-item"><span>Equipo:</span> Xiaomi Redmi Note Pro</li>
+                    <li class="list-group-item"><span>Iluminación:</span> Natural</li>
+                    <li class="list-group-item"><span>Edición:</span> Si</li>
                     <li class="list-group-item"></li>
                 </ul>
                 <div class="buttons mt-3 d-flex justify-content-end">
@@ -34,12 +34,16 @@
     .card_responsive {
         display: flex;
         flex-wrap: wrap;
-    }
-    
+    } 
+}
+
+span{
+    font-weight: bold;
 }
 
 .title_detail{
     margin-left: 15%;
+    font-family: 'Klee One', cursive;
 }
 
  .card_detail{
