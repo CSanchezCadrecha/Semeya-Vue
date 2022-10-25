@@ -40,9 +40,9 @@
     </form> -->
     <form class="g-1  mt-5 form_container rounded">
         <div class="form-group row mt-5 ms-5 me-5">
-            <label for="image" class="col-sm-2 col-form-label">Imagen</label>
-            <div class="col-sm-10">
-                <input type="text" class="form-control shadow bg-body rounded" id="image">
+            <label for="image" class="col-sm-2 col-form-label mt-4">Imagen</label>
+            <div class="col-sm-10 mt-4">
+                <input type="file" class="form-control shadow bg-body rounded" id="image">
             </div>
         </div>
         <div class="form-group row mt-3 ms-5 me-5">
@@ -88,7 +88,7 @@
             </div>
         </div>
         <div class="mt-4 mb-5 me-5 d-flex justify-content-end">
-            <button type="submit" class="btn">Añadir</button>
+            <button type="submit" class="btn mb-3">Añadir</button>
         </div>
     </form>
 </template>
